@@ -1,0 +1,22 @@
+Package: kross
+Type: Package
+Title: Sean Kross' R Code
+Version: 0.1.0
+Authors@R: c(
+    person("Sean", "Kross", email = "sean@seankross.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-5215-0316"))
+    )
+Description: Utilities for personal and academic projects.
+Depends:
+    R (>= 3.5.0)
+Imports:
+    tibble,
+    dplyr,
+    purrr,
+    utils
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 2.1.0)
+RoxygenNote: 7.1.0
+Roxygen: list(markdown = TRUE)
